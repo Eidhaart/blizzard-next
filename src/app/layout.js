@@ -3,27 +3,26 @@ import "./globals.css";
 import TranslationLoader from "./TranslationLoader"; // (Adjust path as needed)
 
 export const metadata = {
-  title: "Blizzard Bartosz Gadziomski",
+  title: "Pokazy Konne - Bartosz Gadziomski",
   description:
-    "Doświadcz zapierających dech w piersiach pokazów kaskaderskich z udziałem koni i usług produkcji filmowej z Bartoszem Gadziomskim.",
+    "Pokazy konne i kaskaderskie najwyższej klasy z Bartoszem Gadziomskim. Obejrzyj niesamowite występy na żywo i profesjonalne produkcje filmowe.",
   keywords:
-    "pokazy kaskaderskie, Bartosz Gadziomski, kaskaderka, produkcja filmowa, trening zwierząt, pokazy konne",
+    "pokazy konne, pokaz konny, pokazy kaskaderskie, Bartosz Gadziomski, kaskaderka, produkcja filmowa, trening koni",
   openGraph: {
-    title: "Pokazy Kaskaderskie Bartosz Gadziomski",
+    title: "Pokazy Konne - Bartosz Gadziomski",
     description:
-      "Poznaj niesamowite pokazy kaskaderskie z udziałem koni i profesjonalne usługi produkcji filmowej.",
+      "Zapierające dech w piersiach pokazy konne z udziałem Bartosza Gadziomskiego. Niesamowite występy i usługi kaskaderskie.",
     url: "https://blizzard.com/pl",
-    siteName: "Pokazy Kaskaderskie Bartosz Gadziomski",
-
+    siteName: "Pokazy Konne - Bartosz Gadziomski",
     locale: "pl_PL",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pokazy Kaskaderskie Bartosz Gadziomski",
+    title: "Pokazy Konne - Bartosz Gadziomski",
     description:
-      "Poznaj niesamowite pokazy kaskaderskie z udziałem koni i profesjonalne usługi produkcji filmowej.",
-    images: ["https://blizzard.com/logo.png"], // Zastąp właściwym adresem URL logo
+      "Zapierające dech w piersiach pokazy konne z udziałem Bartosza Gadziomskiego. Niesamowite występy i usługi kaskaderskie.",
+    images: ["https://blizzard.com/logo.png"],
   },
 };
 

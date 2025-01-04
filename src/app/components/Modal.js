@@ -5,11 +5,11 @@ import { useTranslation } from "react-i18next";
 import "./Modal.css";
 import { IoCloseOutline } from "react-icons/io5";
 
-const Modal = ({ showModal, handleClose }) => {
+const Modal = ({ showModal, handleClose, aboutStrings }) => {
   const { t } = useTranslation();
 
   // Split the description text into paragraphs by detecting \n\n
-  const descriptionParagraphs = t("aboutMe.description2").split("\n\n");
+  const descriptionParagraphs = aboutStrings.aboutMe.description2.split("\n\n");
 
   return (
     <div

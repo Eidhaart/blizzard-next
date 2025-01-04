@@ -56,7 +56,11 @@ export default function ShowsClient({
               onClick={() => openModal("/Husaria.mp4")}
             >
               <video autoPlay muted loop playsInline className="video-card">
-                <source src="/Husaria.mp4" type="video/mp4" />
+                <source
+                  src="/Husaria.mp4"
+                  type="video/mp4"
+                  alt="Pokaz Konny z Husarią"
+                />
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -78,7 +82,11 @@ export default function ShowsClient({
               onClick={() => openModal("/Rycerstwo.mp4")}
             >
               <video autoPlay muted loop playsInline className="video-card">
-                <source src="/Rycerstwo.mp4" type="video/mp4" />
+                <source
+                  src="/Rycerstwo.mp4"
+                  type="video/mp4"
+                  alt="Pokaz Konny Rycerstwo"
+                />
                 Your browser does not support the video tag.
               </video>
             </div>

@@ -24,7 +24,11 @@ export default function AboutMeClient({ aboutStrings }) {
         </div>
       </div>
 
-      <Modal showModal={showModal} handleClose={() => setShowModal(false)} />
+      <Modal
+        aboutStrings={aboutStrings}
+        showModal={showModal}
+        handleClose={() => setShowModal(false)}
+      />
     </section>
   );
 }

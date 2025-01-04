@@ -37,7 +37,7 @@ export default async function HomePage({ searchParams }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Bartosz Gadziomski's Horse Stunt Shows",
+              name: "Pokazy Konne Bartosz Gadziomski",
               url: "https://blizzard.com",
               logo: "https://blizzard.com/logo.png",
               sameAs: [
@@ -55,10 +55,10 @@ export default async function HomePage({ searchParams }) {
               ],
               address: {
                 "@type": "PostalAddress",
-                addressCountry: "PL", // Poland
+                addressCountry: "PL",
               },
               description:
-                "Experience breathtaking horse stunt shows and film production services with Bartosz Gadziomski.",
+                "Profesjonalne pokazy konne, pokazy kaskaderskie i produkcje filmowe z udziałem Bartosza Gadziomskiego. Niezapomniane widowiska na żywo.",
             }),
           }}
         />
