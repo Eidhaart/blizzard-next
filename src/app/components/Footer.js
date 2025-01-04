@@ -96,24 +96,26 @@ export default function Footer({ aboutStrings }) {
         </div>
 
         {/* Contact Info */}
-        <div className="footer-column">
-          <h3 className="footer-heading">{t("footer.contact")}</h3>
-          <p>
-            Email:{" "}
-            <a
-              href="mailto:bartosz.gadziomski@gmail.com"
-              className="contact-link"
-            >
-              bartosz.gadziomski@gmail.com
-            </a>
-          </p>
-          <p>
-            Phone:{" "}
-            <a href="tel:+48606903286" className="contact-link">
-              +48 606 903 286
-            </a>
-          </p>
-        </div>
+        <address>
+          <div className="footer-column">
+            <h3 className="footer-heading">{t("footer.contact")}</h3>
+            <p>
+              Email:{" "}
+              <a
+                href="mailto:bartosz.gadziomski@gmail.com"
+                className="contact-link"
+              >
+                bartosz.gadziomski@gmail.com
+              </a>
+            </p>
+            <p>
+              Phone:{" "}
+              <a href="tel:+48606903286" className="contact-link">
+                +48 606 903 286
+              </a>
+            </p>
+          </div>
+        </address>
       </div>
 
       {/* Copyright Section */}
