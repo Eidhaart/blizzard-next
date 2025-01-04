@@ -1,0 +1,150 @@
+/* ModalGallery.css */
+
+.modal-gallery-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7000;
+}
+
+.modal-gallery-content {
+  background: #1d1816;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #000000;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  font-size: 2rem;
+}
+
+.close-button:hover {
+  background: #ff4040;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 10px;
+  overflow-y: auto;
+  padding: 10px;
+  height: 100%;
+  margin-top: 20px;
+  grid-auto-flow: dense;
+}
+
+/* Grid Items */
+.gallery-grid-item {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-grid-item:hover {
+  transform: scale(1.02);
+}
+
+/* Specific Sizing for Mosaic Layout */
+.gallery-grid-item:nth-child(7n + 1) {
+  grid-row: span 2;
+}
+
+.gallery-grid-item:nth-child(7n + 3) {
+  grid-column: span 2;
+}
+
+.gallery-grid-item:nth-child(7n + 5) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* Image Preview Overlay */
+.image-preview-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7001;
+}
+
+.image-preview-content {
+  position: relative;
+}
+
+.image-preview-content img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 10px;
+}
+
+.image-preview-content .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+/* Responsive Scaling: Smaller Grid Items on Smaller Screens */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(150px, 1fr)
+    ); /* Smaller grid columns */
+    grid-auto-rows: 150px; /* Smaller row height */
+    gap: 5px; /* Reduce gap on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(120px, 1fr)
+    ); /* Further smaller columns on very small screens */
+    grid-auto-rows: 120px; /* Smaller row height */
+    gap: 5px; /* Maintain 5px gap */
+  }
+}

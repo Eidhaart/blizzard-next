@@ -1,0 +1,95 @@
+.about-me {
+  background: none; /* Transparent background */
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-me-container {
+  background: none;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-me-image {
+  flex: 0 0 50%; /* Half the width for the image */
+  text-align: center;
+}
+
+.about-me-image img {
+  width: 100%;
+  max-width: 300px; /* Limit the image size */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-me-text {
+  flex: 1;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.about-me-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-me-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-me-cta {
+  color: white;
+  background-color: #e50914; /* Bright contrasting button */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.about-me-cta:hover {
+  background-color: #c10812;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-me-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .about-me-text p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .about-me-content {
+    font-size: 1rem;
+    flex-direction: column; /* Stack the image and text vertically */
+  }
+
+  .about-me-text {
+    font-size: 1rem;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .about-me-image {
+    margin-bottom: 20px;
+  }
+}

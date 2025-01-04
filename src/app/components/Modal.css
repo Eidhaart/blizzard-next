@@ -1,0 +1,93 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.85
+  ); /* 85% transparent dark grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 7000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background-color: #333; /* Dark grey content background */
+  color: white;
+  padding: 4vw; /* No padding here, as we want the banner to go edge to edge */
+  width: 90%; /* 70% of the screen width */
+  height: 90%; /* 80% of the screen height */
+  border-radius: 10px;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Banner Styles */
+.modal-banner {
+  width: 100%;
+  height: 30%; /* Adjust height depending on the banner's aspect ratio */
+}
+
+.modal-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  object-position: top; /* Display the top portion of the image */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-position: 0 30%; /* This will shift the image down by 20px */
+}
+
+/* Content below the banner */
+.modal-description p {
+  margin-bottom: 20px; /* Adjust this value for the desired space */
+  line-height: 1.6; /* Optional: improve readability */
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.modal-description h2 {
+  padding: 15px;
+  font-size: 2rem;
+}
+
+/* Scrollbar styling */
+.modal-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+@media (max-width: 550px) {
+  .modal-description h2 {
+    font-size: 1.5rem;
+  }
+
+  .modal-description p {
+    margin-bottom: 20px; /* Adjust this value for the desired space */
+    line-height: 1.6; /* Optional: improve readability */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.7rem;
+  }
+}

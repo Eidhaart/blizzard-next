@@ -1,0 +1,124 @@
+{
+  "navbar": {
+    "title": "Bartosz Gadziomski",
+    "shows": "Pokazy i Rekonstrukcje",
+    "filmsAndAds": "Filmy, reklamy i sesje zdjęciowe",
+    "eventServices": "Obsługa imprez",
+    "gallery": "Galeria",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Horseback Stunt Shows",
+    "description": "Światowej klasy pokazy  konne i rekonstrukcje historyczne"
+  },
+  "aboutMe": {
+    "title": "O Mnie",
+    "description": "Nazywam się Bartosz Gadziomski, jestem doświadczonym jeźdźcem i mistrzem w wyścigach psich zaprzęgów. Mam ponad dwadzieścia lat doświadczenia w koordynacji kaskaderskiej dla filmów i pokazów na żywo, a obecnie prowadzę najlepszą grupę kaskaderów konnych w Polsce, łącząc pasję, profesjonalizm i bezpieczeństwo w każdym występie.",
+    "buttonText": "Więcej",
+    "title2": "O mnie",
+    "description2": "Nazywam się Bartosz Gadziomski. Z końmi i psami jestem związany od urodzenia. Zawsze w naszym domu obecne były psy i konie. Od najmłodszych lat jeździłem konno, a właściwie moja mama jeździła konno będąc w ciąży. Ja już tylko kontynuowałem tradycje rodzinne, a jest co kontynuować, gdyż jeden z moich pradziadków był ułanem, a drugi szwoleżerem.\n\nPrzygoda z końmi szła równolegle ze sportem psich zaprzęgów w którym swój pierwszy start zaliczyłem w 1994 roku, a potem na przestrzeni lat sięgnąłem po kilka tytułów Mistrza Polski, V-ce Mistrza świata i Mistrza Europy w różnych dyscyplinach (od 6 psich zaprzęgów po canicross). Startowałem na trasach prawie w całej Europie jak w USA i Kanadzie Konie nauczyły mnie opanowania, dokładności i precyzji, a sport z psami dał mi wiarę w siebie siłę i niezłomność. Tak duże doświadczenie zobowiązuje mnie do stawiania na pierwszym miejscu dobrostanu zwierząt z którymi pracujemy. Dzięki temu są emocjonalnie z nami związane, ufają nam w pełni i stają się zaangażowanymi aktorami, a nie tylko odtwórcami w naszych spektaklach. Swoją karierę kaskadera konnego zacząłem jako młody chłopak w grupie Jacka Kadłubowskiego w filmie Andrzeja Wajdy 'Pan Tadeusz'. Potem w 2000 roku wyjechałem wraz z grupą Malinowscy Trick Riders do miasteczka High Chaparral w Szwecji i tam zaczęła się moja przygoda z pokazami konnymi, która trwa do dziś. Zdobywałem doświadczenie w najlepszych grupach w Polsce i za granicą.\n\nPoznałem wszystkie szczeble kariery od jeźdźca w parku rozrywki po organizatora imprez historycznych i koordynatora kaskaderskiego w dużych produkcjach filmowych polskich i zagranicznych. Dzięki temu udało mi się stworzyć najlepszą grupę konną w Polsce oraz najlepszy team kaskaderski. Każdy z nas jest specjalistą w swojej dziedzinie, dzięki temu uzupełniamy się i tworzymy fantastyczne spektakle i przedstawienia, a na planie filmowym gwarantujemy najwyższy profesjonalizm, doświadczenie i bezpieczeństwo.\n\nZapoznaj się z naszą ofertą a z przyjemnością wprowadzimy Cię w nasz magiczny świat pełen ekstremalnych doznań oraz edukacji."
+  },
+  "shows": {
+    "heading": "Nasze Pokazy",
+    "intro1": "Od 2000 roku organizuję pokazy kaskaderskie konne, historyczne, psich zaprzęgów i nie tylko. Jesteśmy grupą stawiająca nie tylko na efekt, ale i na edukację. Mam nadzieję, że nasza oferta zainteresuje Państwa i zechcecie nas obejrzeć na jednym z organizowanych przez Was eventów. Przygotowaliśmy specjalną ofertę. Największe jak dotąd widowisko organizowane przez nas. Pokaz na 7 (minimum 5 koni) wykonywany w stylizacji XVII wiecznej husarii, bądź rycerzy średniowiecza. Program zależnie od wielkości terenu zazwyczaj zajmuje ok 45-55 minut.",
+    "intro2": "Scenariusz pokazu XVII wiecznego jest bogaty nie tylko w kunszt jeździecki, Wspaniałe stroje które są wiernymi kopiami strojów z epoki, doskonały fachowy komentarz, ale również jest pełen efektów kaskaderskich i pirotechnicznych jak skoki przez płonące przeszkody, żywe przeszkody z ludzi, skoków przez ścianę kartonów, władania bronią białą i drzewcową, sprawności władania batem, jak również dżygitówki na najwyższym poziomie.",
+    "categories": {
+      "husaria": {
+        "title": "Husaria",
+        "description": "Nasz pokaz husarii to najwięcej jeździeckiego kunsztu, wspaniałych strojów i efektów specjalnych. Pirotechnika i elementy kaskaderskie, jak skoki przez płonące przeszkody, ożywiają scenariusz tego pokazu, który pozwala przenieść się w czasy XVII wiecznych husarzy."
+      },
+      "rycerstwo": {
+        "title": "Rycerstwo",
+        "description": "Nasze pokazy rycerskie są pełne faktów i legend z czasów średniowiecza. Nie zabraknie również elementów walki z użyciem broni rycerskiej i finałowego turnieju kopijniczego, który dostarczy niezapomnianych wrażeń."
+      },
+      "inne": {
+        "title": "Inne",
+        "description": "Nie zamykamy się także na realizację innych pomysłów czy scenariuszy klienta. W ofercie mamy również pokazy w stylizacji western czy Bajki dla dzieci, które można adaptować na potrzeby imprezy, na jakiej są wystawiane. Doświadczenie zdobyte na setkach pokazów, jakie do tej pory organizowaliśmy, dało nam głowę pełną pomysłów i radość z podejmowania nowych wyzwań. "
+      }
+    },
+    "contactButton": "Kontakt"
+  },
+  "filmy": {
+    "heading": "Filmy Reklamy i Sesje Zdjęciowe",
+    "intro": "Ze zwierzętami mam kontakt od dziecka, dzięki temu doskonale nauczyłem się czytać ich emocje i nastroje. Wspólnie z grupą zaufanych trenerów zwierząt pracujemy z naszymi podopiecznymi na planach filmowych, w reklamach i sesjach zdjęciowych, zapewniając bezpieczne warunki pracy, zsocjalizowane zwierzęta, a przede wszystkim kładąc nacisk na dobrostan naszych aktorów.",
+    "externalLinkButton": "Zobacz Realizacje Filmowe",
+    "categories": {
+      "animalsOnSet": {
+        "title": "Filmy z udziałem zwierząt",
+        "description": "Pracowaliśmy nad wieloma filmami, w których nasi zwierzęcy aktorzy mieli kluczowe role. Zapewniamy, że każdy zwierzak jest przygotowany i zsocjalizowany do pracy na planie, co pozwala na bezproblemową współpracę."
+      },
+      "trainersAndPhotoshoots": {
+        "title": "Trenerzy i Sesje Zdjęciowe",
+        "description": "Nasze sesje zdjęciowe z udziałem zwierząt to nie tylko piękne ujęcia, ale i profesjonalne podejście. Zapewniamy, że zarówno zwierzęta, jak i ekipa na planie pracują w harmonii, co przekłada się na doskonałe efekty."
+      }
+    }
+  },
+  "kaskaderka": {
+    "heading": "Kaskaderka Filmowa",
+    "intro1": "Moja przygoda z kaskaderką filmową zaczęła się w 1998 roku od filmu Pan Tadeusz, gdzie występowałem w grupie Jacka Kadłubowskiego. Następnie skończyłem szkołę kaskaderów filmowych IST Ryszarda Janikowskiego działającą przy Stowarzyszeniu Filmowców Polskich. Dzięki licznym produkcjom i szkoleniom zyskałem duże doświadczenie przy produkcjach polskich jak i zagranicznych, nie tylko jako kaskader, ale również jako koordynator kaskaderski czy koordynator scen z udziałem koni.",
+    "intro2": "Specjalizujemy się w kaskaderce konnej, szermierce, paleniach, walkach wręcz, upadkach z wysokości. Nie obca jest nam również kaskaderka samochodowa czy motocyklowa.",
+    "externalLinkButton": "Więcej o moim doświadczeniu znajdziesz tu",
+    "categories": {
+      "horseStunts": {
+        "description": "Jako koordynator scen z udziałem koni, nadzorowałem i wykonywałem różne kaskaderskie sceny z udziałem tych wspaniałych zwierząt, dbając jednocześnie o ich bezpieczeństwo na planie."
+      },
+      "variedStunts": {
+        "description": "Specjalizujemy się w różnych technikach kaskaderskich, takich jak upadki z wysokości, szermierka, palenia i walki wręcz, a także kaskaderka samochodowa i motocyklowa."
+      }
+    }
+  },
+  "eventService": {
+    "heading": "Obsługa Imprez",
+    "intro": "Oprócz pokazów oferujemy również kompleksową obsługę imprez historycznych, na którą składają się m.in. stoiska, koncerty, etc.",
+    "categories": {
+      "historicalStalls": {
+        "title": "Stoiska historyczne",
+        "activities": [
+          "Kaletnictwo",
+          "Zielarstwo",
+          "Pszczelarstwo",
+          "Rękodzieło",
+          "Powroźnictwo",
+          "Kowalstwo Historyczne"
+        ]
+      },
+      "otherAttractions": {
+        "title": "Inne atrakcje",
+        "activities": [
+          "Przejażdżki psimi zaprzęgami",
+          "Pokazy sokolnicze",
+          "Pokazy polowania z chartami",
+          "Pokazy i warsztaty szermierki",
+          "Alpakoterapia"
+        ]
+      }
+    },
+    "contactButton": "Skontaktuj się z nami"
+  },
+
+  "contact": {
+    "heading": "Skontaktuj się z nami!",
+    "intro": "Chcesz dodać magii do swojego wydarzenia dzięki pokazom kaskaderskim na koniach? Skontaktuj się z nami już dziś, aby otrzymać spersonalizowaną ofertę!",
+    "ctaButton": "Skontaktuj się z nami"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "follow": "Obserwuj nas!",
+    "links": "Linki"
+  },
+
+  "gallery": {
+    "galleryHeading": "Galeria",
+    "seeMore": "Zobacz Więcej",
+    "all": "Wszystkie",
+    "husaria": "Husaria",
+    "rycerstwo": "Rycerstwo",
+    "other": "Inne",
+    "animals": "Zwierzęta do Sesji",
+    "stunts": "Kaskaderka"
+  },
+  "zdj": "Zdjęcia",
+  "zaprzegidesc2": "Zarówno klient indywidualny jak i grupy mogą wybrać kilka atrakcji. przejażdżka psim zaprzęgiem, dogtrekking (aktywny marszobieg z psami) ale i zajęcia edukacyjne, które są skierowane głównie do dzieci i młodzieży. Zajęcia te mają na celu objaśnienie zjęzyka zwierząt, naukę nawiązywania poprawnych relacji między człowiekiem i psem, a także pokazują wspaniały model spędzania wolnego czasu wraz ze swoim pupilem. Serdecznie zapraszamy",
+  "zaprzegidesc1": "Oferujemy przejażdżki psimi zaprzęgami dla osób indywidualnych i zajęcia dla grup. Przejażdżki i zajęcia mogą się odbywać zarówno na śniegu jaki i w warunkach bezśnieżnych. Prawie 30 lat doświadczenia w sporcie pozwala nam prowadzić tego rodzaju atrakcje na najwyższym poziomie jednocześnie z poszanowaniem potrzeb i dobrostanu zwierząt kajie z nami pracują",
+  "zaprzegitytul": "Psie Zaprzęgi"
+}

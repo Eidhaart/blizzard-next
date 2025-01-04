@@ -1,0 +1,125 @@
+{
+  "navbar": {
+    "title": "Bartosz Gadziomski",
+    "shows": "Shows und Rekonstruktionen",
+    "filmsAndAds": "Filme, Werbung und Fotoshootings",
+    "eventServices": "Veranstaltungsservice",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Horseback Stunt Shows",
+    "description": "Weltklasse Pferdeshows und historische Rekonstruktionen"
+  },
+  "aboutMe": {
+    "title": "Über mich",
+    "description": "Mein Name ist Bartosz Gadziomski, ich bin ein erfahrener Reiter und Meister im Hundeschlittenrennen. Ich habe über zwanzig Jahre Erfahrung in der Stuntkoordination für Filme und Live-Shows und leite derzeit die beste Pferde-Stuntgruppe in Polen, die in jeder Aufführung Leidenschaft, Professionalität und Sicherheit vereint.",
+    "buttonText": "Mehr",
+    "title2": "Über mich",
+    "description2": "Mein Name ist Bartosz Gadziomski. Ich bin seit meiner Geburt mit Pferden und Hunden verbunden. In unserem Haus gab es immer Hunde und Pferde. Ich reite seit meiner Kindheit, und meine Mutter ritt sogar schon, als sie schwanger war. Ich habe nur Familientraditionen fortgeführt, und es gibt etwas, das man fortsetzen kann, denn einer meiner Urgroßväter war ein Ulane und der andere ein Kavalleriesoldat.\n\nDas Abenteuer mit Pferden verlief parallel zum Hundeschlittensport, mit dem ich 1994 erstmals angefangen habe, und dann habe ich im Laufe der Jahre mehrere Titel des polnischen Meisters, Vize-Weltmeisters und Europameisters in verschiedenen Disziplinen (vom 6 Hundeschlitten bis zum Canincross) gewonnen. Ich bin auf Strecken fast in ganz Europa sowie in den USA und Kanada gefahren.\n\nPferde lehrten mich Selbstbeherrschung, Genauigkeit und Präzision und der Sport mit Hunden gab mir Selbstvertrauen, Kraft und Standhaftigkeit. Diese umfangreiche Erfahrung verpflichtet mich, das Wohlergehen der Tiere, mit denen wir arbeiten, an erste Stelle zu setzen. Dadurch sind sie emotional an uns gebunden, vertrauen uns voll und ganz und werden zu engagierten Schauspielern und nicht nur zu Darstellern unserer Auftritte.\n\nMeine Karriere als Pferde-Stuntman begann ich als kleiner Junge in der Gruppe von Jacek Kadłubowski in Andrzej Wajdas Film „Pan Tadeusz“. Dann, im Jahr 2000, ging ich mit der Malinowski Trick Riders-Gruppe in die Stadt High Chaparral in Schweden und dort begann mein Abenteuer mit Pferdeshows, das bis heute andauert. Ich habe Erfahrungen in den besten Gruppen in Polen und im Ausland gesammelt.\n\nIch habe alle Karrierestufen kennengelernt, vom Fahrer in einem Vergnügungspark bis zum Organisator historischer Veranstaltungen und Stuntkoordinator in großen polnischen und ausländischen Filmproduktionen. Dadurch ist es mir gelungen, die beste Pferdegruppe in Polen und das beste Stuntteam zu bilden. Jeder von uns ist ein Spezialist auf seinem Gebiet, wodurch wir uns gegenseitig ergänzen und fantastische Spektakel und Aufführungen schaffen. Am Filmset garantieren wir höchste Professionalität, Erfahrung und Sicherheit.\n\nSchauen Sie sich unser Angebot an und wir führen Sie gerne in unsere magische Welt voller extremer Erlebnisse und Bildung ein."
+  },
+  "shows": {
+    "heading": "Unsere Shows",
+    "intro1": "Seit 2000 organisiere ich Stuntpferdeshows, historische Shows, Hundeschlittenshows und mehr. Wir sind eine Gruppe, die sich nicht nur auf Ergebnisse, sondern auch auf Bildung konzentriert. Ich hoffe, dass unser Angebot Sie interessiert und dass Sie Lust haben, uns auf einer der von Ihnen organisierten Veranstaltungen zu sehen.\n\nWir haben ein Sonderangebot vorbereitet. Die größte Show, die wir bisher organisiert haben. Eine Show für 7 (mindestens 5 Pferde) im Stil von Husaren oder mittelalterlichen Rittern aus dem 17. Jahrhundert. Je nach Größe der Fläche dauert das Programm in der Regel etwa 45-55 Minuten.",
+    "intro2": "Das Szenario der Show aus dem 17. Jahrhundert ist nicht nur reich an Reitkunst, wunderbaren Kostümen, die originalgetreue Kopien von historischen Kostümen sind, exzellenten professionellen Kommentaren, sondern auch voller Stunt- und pyrotechnischer Effekte wie dem Springen über brennende Hindernisse, lebenden Hindernissen aus Menschen und Sprüngen über einer Pappwand, der Einsatz von Nahkampf- und Stangenwaffen, die Fähigkeit, eine Peitsche zu führen, sowie eine Dzhigita auf höchstem Niveau.",
+    "categories": {
+      "husaria": {
+        "title": "Husaria",
+        "description": "Unsere Husarenshow zeigt das höchste Maß an Reitkunst, wunderschöne Kostüme und spezielle Effekte. Pyrotechnik und Stuntelemente wie Sprünge über brennende Hindernisse beleben das Szenario dieser Show, die in die Zeit der Husaren des 17. Jahrhunderts versetzt."
+      },
+      "rycerstwo": {
+        "title": "Rittertum",
+        "description": "Während der mittelalterlichen Rittervorführungen gibt es auch Kommentare voller Fakten und Legenden aus dem Mittelalter. Die Show beinhaltet auch Elemente ritterlicher Fähigkeiten im Umgang mit Waffen, die einer bestimmten Epoche entsprechen. Als Abschluss dieser Wettbewerbe präsentieren wir Ihnen ein echtes Lanzenturnier, bei dem unsere Ritter zu Ihrer Freude darum kämpfen, ihre Gegner mit Lanzen zu zerschmettern."
+      },
+      "inne": {
+        "title": "Andere",
+        "description": "Wir beschränken uns auch nicht darauf, andere Ideen oder Szenarien des Kunden umzusetzen. Wir bieten auch Shows im westlichen Stil und Märchen für Kinder an, die an die Bedürfnisse der Veranstaltung, bei der sie aufgeführt werden, angepasst werden können. Die Erfahrung aus Hunderten von Shows, die wir bisher organisiert haben, gab uns einen Kopf voller Ideen und die Freude, neue Herausforderungen anzunehmen."
+      }
+    },
+    "contactButton": "Kontakt"
+  },
+  "filmy": {
+    "heading": "Filme, Werbung und Fotoshootings",
+    "intro": "Ich habe seit meiner Kindheit Kontakt zu Tieren, wodurch ich ihre Emotionen und Stimmungen hervorragend lesen lernte. Gemeinsam mit einer Gruppe vertrauenswürdiger Tiertrainer arbeiten wir mit unseren Schützlingen an Filmsets, in Werbespots und Fotoshootings und gewährleisten sichere Arbeitsbedingungen, sozialisierte Tiere und legen vor allem Wert auf das Wohl unserer tierischen Schauspieler.",
+    "externalLinkButton": "Siehe Filmprojekte",
+    "categories": {
+      "animalsOnSet": {
+        "title": "Filme mit Tieren",
+        "description": "Wir haben an vielen Filmen gearbeitet, in denen unsere tierischen Schauspieler Schlüsselrollen spielten. Wir sorgen dafür, dass jedes Tier für die Arbeit am Set vorbereitet und sozialisiert ist, was eine reibungslose Zusammenarbeit ermöglicht."
+      },
+      "trainersAndPhotoshoots": {
+        "title": "Trainer und Fotoshootings",
+        "description": "Unsere Fotoshootings mit Tieren bieten nicht nur schöne Aufnahmen, sondern auch ein professionelles Umfeld. Wir stellen sicher, dass sowohl die Tiere als auch das Team am Set in Harmonie arbeiten, was sich in großartigen Ergebnissen widerspiegelt."
+      }
+    }
+  },
+  "kaskaderka": {
+    "heading": "Filmstunts",
+    "intro1": "Mein Abenteuer in der Filmstuntarbeit begann 1998 mit dem Film Pan Tadeusz, in dem ich in der Gruppe von Jacek Kadłubowski auftrat. Anschließend absolvierte ich die Filmstuntschule IST von Ryszard Janikowski, die bei der Vereinigung Polnischer Filmschaffender tätig ist. Durch zahlreiche Produktionen und Schulungen habe ich umfassende Erfahrungen in polnischen und internationalen Produktionen gesammelt, nicht nur als Stuntman, sondern auch als Stunt- und Pferdekoordinator.",
+    "intro2": "Wir sind auf Pferdestunts, Fechten, Brandstunts, Nahkämpfe und Höhenstürze spezialisiert. Auch Autostunts und Motorradstunts sind uns nicht fremd.",
+    "externalLinkButton": "Erfahren Sie mehr über meine Erfahrung hier",
+    "categories": {
+      "horseStunts": {
+        "description": "Als Koordinator von Szenen mit Pferden habe ich verschiedene Stuntszenen mit diesen wunderbaren Tieren überwacht und durchgeführt und gleichzeitig für ihre Sicherheit am Set gesorgt."
+      },
+      "variedStunts": {
+        "description": "Wir sind auf verschiedene Stunttechniken spezialisiert, wie Höhenstürze, Fechten, Brandstunts und Nahkämpfe sowie Auto- und Motorradstunts."
+      }
+    }
+  },
+  "eventService": {
+    "heading": "Veranstaltungsservice",
+    "intro": "Zusätzlich zu unseren Shows bieten wir auch umfassende historische Veranstaltungsservices an, einschließlich Stände, Konzerte und mehr.",
+    "categories": {
+      "historicalStalls": {
+        "title": "Historische Stände",
+        "activities": [
+          "Sattlerei",
+          "Kräuterkunde",
+          "Imkerei",
+          "Handwerk",
+          "Seilerei",
+          "Historische Schmiede"
+        ]
+      },
+      "otherAttractions": {
+        "title": "Weitere Attraktionen",
+        "activities": [
+          "Schlittenfahrten mit Hunden",
+          "Falknerei",
+          "Jagdvorgeführungen mit Windhunden",
+          "Fechten Shows und Workshops",
+          "Alpakatherapie"
+        ]
+      }
+    },
+    "contactButton": "Kontaktieren Sie uns"
+  },
+
+  "contact": {
+    "heading": "Kontaktieren Sie uns!",
+    "intro": "Möchten Sie Ihr Event mit Stuntreitshows bereichern? Kontaktieren Sie uns noch heute für ein individuelles Angebot!",
+    "ctaButton": "Kontaktieren Sie uns"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "follow": "Folgen Sie uns!",
+    "links": "Links"
+  },
+
+  "gallery": {
+    "galleryHeading": "Galerie",
+    "seeMore": "Mehr sehen",
+    "all": "Alle",
+    "husaria": "Husaria",
+    "rycerstwo": "Rittertum",
+    "other": "Andere",
+    "animals": "Tiere für Fotoshootings",
+    "stunts": "Stunts"
+  },
+
+  "zdj": "Fotos",
+  "zaprzegidesc2": "Sowohl Einzelkunden als auch Gruppen können mehrere Attraktionen wählen. Schlittenfahrt mit Hunden, Dogtrekking (aktives Marschieren mit Hunden) und auch Bildungsaktivitäten, die hauptsächlich für Kinder und Jugendliche gedacht sind. Diese Aktivitäten zielen darauf ab, die Sprache der Tiere zu erklären, den Aufbau korrekter Beziehungen zwischen Mensch und Hund zu fördern und ein wunderbares Modell für die Freizeitgestaltung mit dem eigenen Haustier zu zeigen. Wir laden Sie herzlich ein",
+  "zaprzegidesc1": "Wir bieten Hundeschlittenfahrten für Einzelpersonen und Gruppen an. Die Fahrten und Aktivitäten können sowohl im Schnee als auch unter schneefreien Bedingungen stattfinden. Fast 30 Jahre Erfahrung im Sport ermöglichen es uns, solche Attraktionen auf höchstem Niveau anzubieten, wobei wir gleichzeitig die Bedürfnisse und das Wohlbefinden der Tiere respektieren, die mit uns arbeiten",
+  "zaprzegitytul": "Hundeschlitten"
+}

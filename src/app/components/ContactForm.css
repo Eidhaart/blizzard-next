@@ -1,0 +1,64 @@
+.contact-form-wrapper {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure full modal height is used */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure the form fits within the modal */
+  max-width: 500px; /* Limit the max width for better layout */
+  gap: 20px;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%; /* Ensures the inputs take up full width */
+  max-width: 100%; /* Limit the input to the full width of the form */
+  padding: 15px;
+  border: 1px #c2cdda solid;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-submit-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px #c2cdda solid;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensures the button takes up full width */
+}
+
+.contact-submit-button:hover {
+  background-color: rgba(187, 187, 187, 0.247);
+}
+
+.form-status {
+  margin-top: 10px;
+  font-size: 1rem;
+}

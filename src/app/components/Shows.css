@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.shows-section {
+  background: none;
+  /* Keep the original size of the image */
+  color: white;
+  padding: 60px 40px;
+}
+
+.shows-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.shows-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.shows-intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.show-category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.show-text {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+.show-text h2 {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.show-text h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.show-text p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.show-video,
+.show-image {
+  flex: 1;
+  text-align: center;
+  padding: 0px;
+  max-width: 600px;
+}
+
+/* Wrapper to contain the zoomed video */
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+}
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+}
+
+.video-card {
+  width: 100%;
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.show-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+}
+
+/* CTA Button Container */
+.cta-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Modern Button Styling */
+.cta-button {
+  background-color: transparent;
+  color: white;
+  border: 1px #c2cdda solid;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-text ul {
+  list-style-type: none;
+  padding: 0;
+  text-wrap: nowrap;
+}
+
+.show-text-1 {
+  text-align: right;
+  flex: 1;
+  padding: 20px;
+}
+
+.show-text-1 h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.show-text-1 p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: right;
+}
+
+.show-text-1 ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 1.5em;
+  position: relative;
+  text-align: right;
+}
+
+.show-text-1 ul li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding-right: 0.5em;
+  position: relative;
+}
+
+.show-text-1 ul li:before {
+  content: "⬦";
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+}
+
+.show-text ul li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding-left: 1.5em;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.show-text ul li:before {
+  content: "⬦";
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.cta-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: #fff;
+}
+
+.cta-button:active {
+  transform: translateY(0);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Modal overlay to cover the entire screen */
+.video-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 4000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content to center the video */
+.video-modal-content {
+  position: relative;
+  width: 80vw;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 1001;
+}
+
+.video-modal-content video {
+  width: 100%;
+  height: auto;
+}
+
+/* Close button styling */
+.video-close-button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 1002;
+}
+
+.gallery-button {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+
+  border: white 1px solid;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-height: 30px;
+  margin-top: 10px;
+}
+
+.gallery-button:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+.gallery-button:hover .show-category {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .show-category {
+    flex-direction: column;
+  }
+
+  .video-modal-content {
+    position: relative;
+    width: 100vw;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1001;
+  }
+
+  .show-text {
+    order: 2;
+    text-align: center;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .show-text ul {
+    order: 2;
+    text-align: left;
+    font-size: 10rem;
+    text-align: left;
+  }
+
+  .show-video,
+  .show-image {
+    width: 100%;
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .shows-heading {
+    font-size: 1.2rem;
+  }
+
+  .shows-intro,
+  .show-text p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .show-image img {
+    width: 90vw;
+    margin: 5px; /* Add 5px margin around images on mobile */
+    height: auto; /* Ensure images are responsive */
+    max-width: none; /* Make sure the images fill the space on mobile */
+  }
+
+  .show-text-1 {
+    text-align: right;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+    font-size: 0.7rem;
+  }
+  .show-text-1 h3 {
+    text-align: left;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+  }
+
+  .show-text-1 ul {
+    text-align: left;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+  }
+
+  .show-text-1 ul li {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .show-text ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    text-wrap: nowrap;
+    font-size: 0.5rem;
+  }
+
+  .show-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .video-wrapper {
+    width: 90vw;
+  }
+}

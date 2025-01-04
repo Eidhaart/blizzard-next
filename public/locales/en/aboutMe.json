@@ -1,0 +1,123 @@
+{
+  "navbar": {
+    "title": "Bartosz Gadziomski ",
+    "shows": "Shows",
+    "filmsAndAds": "Films, Ads and Photo Sessions",
+    "eventServices": "Event Service",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Horseback Stunt Shows",
+    "description": "World-Class Horseback stunt shows and historical reenactment"
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "description": "My name is Bartosz Gadziomski. I am an experienced horse rider and champion in dog sled racing. I have over twenty years of experience in stunt coordination for films and live shows, and I currently lead Poland’s top horse stunt team, combining passion, professionalism, and safety in every performance.",
+    "buttonText": "More",
+    "title2": "About Me",
+    "description2": "My name is Bartosz Gadziomski. I have been involved with horses and dogs since birth. Dogs and horses have always been present in our home. From a young age, I rode horses, and actually, my mother rode while pregnant with me. I just continued the family tradition, and there is much to continue, as one of my great-grandfathers was a lancer, and the other a cavalryman.\n\nMy adventure with dog sledding ran parallel to my work with horses. I had my first start in dog sledding in 1994, and over the years, I have achieved several titles including Polish Champion, Vice World Champion, and European Champion in various disciplines (from 6-dog sleds to canicross). I have competed on tracks across almost all of Europe, as well as in the USA and Canada.\n\nHorses taught me composure, precision, and accuracy, while dog sports gave me self-belief, strength, and resilience. Such extensive experience obliges me to prioritize the well-being of the animals we work with. As a result, they are emotionally connected to us, trust us fully, and become engaged actors rather than mere performers in our shows.\n\nI began my career as a horse stunt performer as a young man with Jacek Kadłubowski's group in Andrzej Wajda’s film Pan Tadeusz. Then in 2000, I traveled with the Malinowscy Trick Riders to the town of High Chaparral in Sweden, where my adventure with horse shows began and continues to this day. I gained experience with the best groups in Poland and abroad.\n\nI have gone through all career levels, from a rider in a theme park to an organizer of historical events and a stunt coordinator for large film productions, both Polish and international. This experience allowed me to create the best horse group in Poland and the best stunt team. Each of us is a specialist in our field, allowing us to complement each other and create fantastic shows and performances, while on film sets, we guarantee the highest professionalism, experience, and safety."
+  },
+  "shows": {
+    "heading": "Our Shows",
+    "intro1": "Since 2000, I have organized horseback stunt shows, historical reenactments, dog sled demonstrations, and more. We are a group that not only focuses on the visual effect but also on education. I hope our offer will interest you and that you would like to see us at one of the events you are organizing. We have prepared a special offer: the largest show we have organized so far. A performance with 7 (minimum 5 horses) executed in the style of 17th-century hussars or medieval knights. The program, depending on the size of the area, typically lasts about 45-55 minutes.",
+    "intro2": "The 17th-century show script is rich not only in equestrian skills, with magnificent costumes that are faithful replicas of period attire, and excellent professional commentary, but it also includes many stunt and pyrotechnic effects such as jumps over flaming obstacles, live obstacles with people, jumps through cardboard walls, the handling of edged and pole weapons, whip skills, as well as high-level dzhigitovka.",
+    "categories": {
+      "husaria": {
+        "title": "Hussars",
+        "description": "Our hussar show showcases exceptional horsemanship, magnificent costumes, and special effects. Pyrotechnics and stunt elements, such as jumps over flaming obstacles, bring the script of this performance to life, transporting you to the era of the 17th-century hussars."
+      },
+      "rycerstwo": {
+        "title": "Medieval Knights",
+        "description": "Our knight shows are filled with facts and legends from medieval times. They also include combat elements using knightly weapons and a final jousting tournament that promises unforgettable thrills."
+      },
+      "inne": {
+        "title": "Other",
+        "description": "We are also open to realizing other ideas or scenarios from our clients. Our offer also includes Western-style shows or children's fairy tales, which can be adapted for the needs of the event they are showcased at. The experience gained from the hundreds of shows we have organized so far has given us a head full of ideas and a joy for taking on new challenges. "
+      }
+    },
+    "contactButton": "Contact"
+  },
+  "filmy": {
+    "heading": "Films, Ads and photo Sessions",
+    "intro": "I have been around animals since childhood, which has allowed me to learn to read their emotions and moods exceptionally well. Together with a group of trusted animal trainers, we work with our companions on film sets, in commercials, and photo sessions, ensuring safe working conditions, well-socialized animals, and, above all, prioritizing the well-being of our animal actors.",
+    "externalLinkButton": "See our Film Projects",
+    "categories": {
+      "animalsOnSet": {
+        "title": "Films Featuring Animals",
+        "description": "We have worked on numerous films where our animal actors played key roles. We ensure that each animal is well-prepared and socialized for on-set work, allowing for seamless collaboration"
+      },
+      "trainersAndPhotoshoots": {
+        "title": "Trainers and photo sessions",
+        "description": "Our photo sessions featuring animals are not only about capturing beautiful shots but also reflect a professional approach. We ensure that both the animals and the crew work in harmony on set, resulting in outstanding outcomes."
+      }
+    }
+  },
+  "kaskaderka": {
+    "heading": "Film Stunt Work",
+    "intro1": "My journey in film stunt work began in 1998 with the film Pan Tadeusz, where I performed as part of Jacek Kadłubowski's team. I then completed film stunt school at IST under Ryszard Janikowski, affiliated with the Polish Filmmakers Association. Through numerous productions and training, I gained extensive experience in both Polish and international productions, not only as a stunt performer but also as a stunt coordinator and coordinator of scenes involving horses.",
+    "intro2": "",
+    "externalLinkButton": "More about my experience",
+    "categories": {
+      "horseStunts": {
+        "description": "As a coordinator for scenes involving horses, I have supervised and performed various stunt scenes with these magnificent animals, always ensuring their safety on set."
+      },
+      "variedStunts": {
+        "description": "We specialize in various stunt techniques, including high falls, sword fighting, fire stunts, hand-to-hand combat, as well as car and motorcycle stunts."
+      }
+    }
+  },
+  "eventService": {
+    "heading": "Event Service",
+    "intro": "In addition to shows, we also offer comprehensive services for historical events, including stalls, concerts, and more.",
+    "categories": {
+      "historicalStalls": {
+        "title": "Historical Stalls",
+        "activities": [
+          "Leatherworking",
+          "Herbalism",
+          "Beekeeping",
+          "Handicrafts",
+          "Ropemaking",
+          "Historical Blacksmithing"
+        ]
+      },
+      "otherAttractions": {
+        "title": "Other Attractions",
+        "activities": [
+          "Dog sled rides",
+          "Falconry displays",
+          "Hunting demonstrations with greyhounds",
+          "Swordsmanship shows and workshops",
+          "Alpaca therapy"
+        ]
+      }
+    },
+    "contactButton": "Get in touch!"
+  },
+
+  "contact": {
+    "heading": "Contact Us!",
+    "intro": "Want to add magic to your event with horseback stunt shows? Get in touch with us today to receive a personalized offer!",
+    "ctaButton": "Contact Us"
+  },
+  "footer": {
+    "contact": "Contact",
+    "follow": "Follow Us!",
+    "links": "Links"
+  },
+  "gallery": {
+    "galleryHeading": "Gallery",
+    "seeMore": "See More",
+    "all": "All",
+    "husaria": "Hussars",
+    "rycerstwo": "Knights",
+    "other": "Other",
+    "animals": "Animals for Photoshoots",
+    "stunts": "Stunt Work"
+  },
+  "zdj": "Photos",
+  "zaprzegidesc2": "Both individual clients and groups can choose from several attractions. Dog sledding, dog trekking (active hiking with dogs), and educational activities primarily aimed at children and teenagers. These activities aim to explain animal language, teach the establishment of correct relationships between humans and dogs, and showcase a wonderful model for spending leisure time with one's pet. We warmly invite you",
+  "zaprzegidesc1": "We offer dog sled rides for individuals and group activities. The rides and activities can take place on snow as well as in snow-free conditions. Nearly 30 years of experience in the sport allows us to offer these kinds of attractions at the highest level, while respecting the needs and well-being of the animals that work with us",
+  "zaprzegitytul": "Dog Sledding"
+}

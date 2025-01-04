@@ -1,0 +1,122 @@
+{
+  "navbar": {
+    "title": "Bartosz Gadziomski",
+    "shows": "Spectacles et Reconstitutions",
+    "filmsAndAds": "Films, Publicité et Séances Photos",
+    "eventServices": "Services d'Événements",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Horseback Stunt Shows",
+    "description": "Spectacles équestres de classe mondiale et reconstitutions historiques"
+  },
+  "aboutMe": {
+    "title": "À propos de moi",
+    "description": "Je m'appelle Bartosz Gadziomski, je suis un cavalier expérimenté et un champion dans les courses de chiens de traîneau. Avec plus de vingt ans d'expérience en coordination de cascades pour les films et spectacles en direct, je dirige actuellement le meilleur groupe de cascadeurs à cheval en Pologne, alliant passion, professionnalisme et sécurité dans chaque performance.",
+    "buttonText": "En savoir plus",
+    "title2": "À propos de moi",
+    "description2": "Mon nom est Bartosz Gadziomski et je suis né avec des chevaux et des chiens. Ils ont toujours été présents avec moi à la maison. Depuis mon plus jeune âge, je monte des chevaux. Ma mère lorsqu'elle était enceinte montait déjà des chevaux avec moi. J'ai simplement continué une tradition familial, l'un de mes deux grands pères étaient dans la cavalerie.\n\n En parallèle de ce travail avec les chevaux, mon autre passion est les chiens de traîneau. J'ai participé à ma 1ère cours en 1994 et au fil des ans, j'ai décroché plusieurs titres : champion de Pologne, vice-champion d'Europe et champion d'Europe dans différentes catégories (de 6-chiens à canicross). J'ai concouru sur des pistes dans toute l'Europe, aux Etats-Unis et au Canada.\n\nLes chevaux m'ont appris le sang-froid, la précision et l'exactitude, tandis que le travail avec les chiens m'a apporté confiance en moi, force et résilience. Une telle expérience m'oblige à privilégier le bien-être des animaux avec lesquels j'interviens. Le résultat est qu'ils sont très connectés, nous font confiance pleinement et de ce fait deviennent des acteurs engagés qui nous permettent de performer dans nos shows.\n\n J'ai commencé ma carrière de cascadeur à cheval jeune avec le groupe de Jacek Kadlubowski dans le film d'Andrzej Wajda, Pan Tadeusz. Ensuite en 2000, je suis allé à High Chapparral en Suède avec les Malinowscy Trixk Riders et mon aventure avec les spectacles à chevaux a débuté, sans jamais s'arrêter. J'ai pris de l'expérience avec les meilleurs groupes de Pologne et à l'étranger. Je suis passé par différents niveaux de carrière, de cavalier dans un parc à thème à organisateur d'événements historiques en passant par coordinateur des cascades pour de grandes productions de films, polonaises et internationales. Cette expérience m'a permise de créer le meilleur groupe de cavaliers et de cascadeurs à cheval de Pologne. Chacun de nous est spécialisé dans son domaine et nous nous complétons avantageusement les uns les autres pour créer les meilleurs spectacles, tandis que sur les plateaux de productions, nous garantissons un grand professionnalisme, une expérience à toute épreuve et un haut-niveau de sécurité.\n\nDécouvrez notre offre et nous vous partagerons notre monde magique d'expériences. Vous apprendrez beaucoup avec nous."
+  },
+  "shows": {
+    "heading": "Nos Spectacles",
+    "intro1": "Depuis les années 2000, j'ai organisé des spectacles de cascade à cheval, des reconstitutions historiques, des démonstrations de chiens de traîneau et bien plus. Nous sommes une entreprise qui ne se contente pas de focaliser sur l'effet visuel, mais aussi sur la pédagogie. J'espère que notre offre vous intéressera et que vous souhaiterez nous voir sur vos événements. Nous avons préparé une prestation hors du commun, le plus grand spectacle que nous avons organisé jusque là. Un spectacle avec 7 chevaux (minimum 5) exécuté avec des hussards du XVIIème siècle ou des chevaliers médiévaux. Il dure environ 45 à 55 minutes dépendant de la taille de la zone d'évolution.",
+    "intro2": "Le scripte du spectacle du XVIIème siècle n'est pas seulement riche en compétences équestres avec ses parfaites répliques de costumes d'époque et son excellent commentateur, il inclut aussi beaucoup de cascades et effets pyrotechniques comme des saut à travers des obstacles enflammés, des obstacles vivants avec des gens, des sauts à travers des murs en carton, l'utilisation d'armes tranchantes et de lances, le maniement du fouet, aussi bien qu'un haut-niveau de dzhigitovka.",
+    "categories": {
+      "husaria": {
+        "title": "Hussards",
+        "description": "Notre spectacle de hussards offre le plus haut niveau d'adresse équestre, des costumes magnifiques et des effets spéciaux. La pyrotechnie et les éléments de cascade, tels que les sauts par-dessus des obstacles enflammés, animent le scénario de ce spectacle, qui vous transporte au temps des hussards du XVIIe siècle."
+      },
+      "rycerstwo": {
+        "title": "Chevaliers",
+        "description": "Dans le spectacle des chevaliers médiévaux, il y a aussi des commentaires riches de faits et de légendes de cette période. Ce spectacle inclut également tout un savoir-faire des chevaliers avec leurs armes. Pour le final, nous présenterons des joutes sous la forme d'un tournoi où nos chevaliers iront jusqu'à briser leurs lances pour votre plus grand plaisir."
+      },
+      "inne": {
+        "title": "Autres",
+        "description": "Nous sommes également réceptifs à produire vos idées ou d'autres scénarios. Nos offres comprennent aussi des spectacles Western ou adaptées aux enfants ou au public que vous ciblez. Notre expérience vient des centaines de spectacles que nous avons organisés jusque là. Ce sont eux qui spectacle après spectacle nous ont permis de les améliorer et nous avons libéré notre créativité en prenant plaisir aux nouveaux challenges."
+      }
+    },
+    "contactButton": "Contactez-nous"
+  },
+  "filmy": {
+    "heading": "Films, Publicité et Séances Photos",
+    "intro": "Je suis en contact avec les animaux depuis mon enfance. Cela m'a appris à lire leurs émotions et leurs humeurs parfaitement, rendant la communication avec eux sans effort. Avec une équipe d'animaux entraînés et en confiance, nous proposons nos services pour les productions de films classiques, commerciaux, séances photos. Nous assurons un travail dans d'excellentes conditions de sécurité. Nos compagnons à 4 pattes sont bien socialisés et le souci de leur bien-être en font des acteurs engagés, nous travaillons avec passion.",
+    "externalLinkButton": "Voir les Projets de Films",
+    "categories": {
+      "animalsOnSet": {
+        "title": "Films avec des Animaux",
+        "description": "Nous avons travaillé sur de nombreux films où nos acteurs animaux ont joué des rôles clés. Nous veillons à ce que chaque animal soit préparé et bien socialisé pour travailler sur le plateau, ce qui permet une collaboration sans heurts."
+      },
+      "trainersAndPhotoshoots": {
+        "title": "Dresseurs et Séances Photos",
+        "description": "Nos séances photos avec des animaux offrent non seulement de belles prises de vue, mais aussi une approche professionnelle. Nous assurons que les animaux et l'équipe travaillent en harmonie, produisant ainsi d'excellents résultats."
+      }
+    }
+  },
+  "kaskaderka": {
+    "heading": "Cascades de Film",
+    "intro1": "Mon aventure dans le tournage en tant que cascadeur débute en 1998 avec le film Pan Tadeusz où j'ai évolué avec le groupe de Jacek Kadlubowski. Ensuite, j'ai complété mon apprentissage à l'Ecole de cascadeurs IST Ryszard Janikowski, sous l'égide de l'association des producteurs de films polonais. Avec un grand nombre de productions aussi bien polonaise qu'internationales et de la pratique personnelle, j'ai acquis une grande expérience, pas seulement en tant que cascadeur mais également en tant que coordinateur de cascadeurs pour les scènes avec des chevaux. Vous pouvez en savoir plus sur à travers ce lien.",
+    "intro2": "Nous sommes spécialisés dans les cascades à cheval, combats à l'épée, combats d'homme à homme, chutes en hauteur. A cela, vous ajouterez des possibilités de cascades en voiture et à moto.",
+    "externalLinkButton": "En savoir plus sur mon expérience ici",
+    "categories": {
+      "horseStunts": {
+        "description": "En tant que coordinateur de scènes impliquant des chevaux, j'ai supervisé et effectué diverses scènes de cascades avec ces magnifiques animaux, tout en veillant à leur sécurité sur le plateau."
+      },
+      "variedStunts": {
+        "description": "Nous sommes spécialisés dans diverses techniques de cascade, telles que les chutes de hauteurs, l'escrime, les incendies et les combats à mains nues, ainsi que les cascades automobiles et à moto."
+      }
+    }
+  },
+  "eventService": {
+    "heading": "Services d'Événements",
+    "intro": "En plus des spectacles, nous offrons également une gestion complète des événements historiques, comprenant des stands, des concerts, etc.",
+    "categories": {
+      "historicalStalls": {
+        "title": "Stands Historiques",
+        "activities": [
+          "Maroquinerie",
+          "Herboristerie",
+          "Apiculture",
+          "Artisanat",
+          "Corderie",
+          "Forge Historique"
+        ]
+      },
+      "otherAttractions": {
+        "title": "Autres Attraits",
+        "activities": [
+          "Balades en chiens de traîneau",
+          "Démonstrations de fauconnerie",
+          "Chasse avec des lévriers",
+          "Démonstrations et ateliers d'escrime",
+          "Thérapie par les alpagas"
+        ]
+      }
+    },
+    "contactButton": "Contactez-nous"
+  },
+  "contact": {
+    "heading": "Contactez-nous !",
+    "intro": "Vous souhaitez apporter de la magie à votre événement avec des spectacles de cascade à cheval ? Contactez-nous dès aujourd'hui pour obtenir une offre personnalisée !",
+    "ctaButton": "Contactez-nous"
+  },
+  "footer": {
+    "contact": "Contact",
+    "follow": "Suivez-nous !",
+    "links": "Liens"
+  },
+  "gallery": {
+    "galleryHeading": "Galerie",
+    "seeMore": "Voir Plus",
+    "all": "Tous",
+    "husaria": "Hussards",
+    "rycerstwo": "Chevaliers",
+    "other": "Autres",
+    "animals": "Animaux pour Séances Photos",
+    "stunts": "Cascades"
+  },
+  "zdj": "Photos",
+  "zaprzegidesc2": "Les clients individuels comme les groupes peuvent choisir parmi plusieurs attractions. Balade en traîneau à chiens, dog-trekking (marche active avec des chiens) et activités éducatives destinées principalement aux enfants et aux adolescents. Ces activités visent à expliquer le langage animal, à enseigner l'établissement de relations correctes entre l'homme et le chien et à montrer un merveilleux modèle de loisirs avec son animal de compagnie. Nous vous invitons chaleureusement",
+  "zaprzegidesc1": "Nous proposons des balades en traîneau à chiens pour les individus et des activités de groupe. Les balades et activités peuvent se dérouler sur neige ou sans neige. Près de 30 ans d'expérience dans ce sport nous permettent de proposer ces attractions à un niveau de qualité élevé, tout en respectant les besoins et le bien-être des animaux qui travaillent avec nous",
+  "zaprzegitytul": "Traîneau à Chiens"
+}
