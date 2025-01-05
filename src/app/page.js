@@ -1,6 +1,5 @@
-// src/app/page.js
 import { getTranslation } from "../getTranslations";
-import { getGalleryImages } from "../getGalleryImages"; // Import the helper function to load images
+import { getGalleryImages } from "../getGalleryImages";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMeClient";
 import HeroSection from "./components/HeroSection";
@@ -13,44 +12,45 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Head from "next/head";
 
-// Tells Next.js to run on each request (so it picks up new ?lang=)
 export const dynamic = "force-dynamic";
 
 export default async function HomePage({ searchParams }) {
-  const locale = searchParams.lang || "en";
+  const locale = searchParams.lang || "pl";
   const aboutStrings = await getTranslation(locale, "aboutMe");
 
-  // Load gallery images on the server
+  // Load gallery images
   const husariaImages = getGalleryImages("husaria");
   const rycerstwoImages = getGalleryImages("rycerstwo");
   const inneImages = getGalleryImages("inne");
-  const kaskaderkaImages = getGalleryImages("kaskaderka");
-  const filmyImages = getGalleryImages("filmy");
-  const zaprzegiImages = getGalleryImages("zaprzegi");
 
   return (
     <div>
       <Head>
+        <title>Pokazy Konne - Bartosz Gadziomski</title>
+        <meta
+          name="description"
+          content="Zapierające dech w piersiach pokazy konne z udziałem Bartosza Gadziomskiego. Niesamowite występy i usługi kaskaderskie."
+        />
+        <meta
+          name="keywords"
+          content="pokazy konne, pokazy kaskaderskie, Bartosz Gadziomski, husaria, rycerstwo, psie zaprzęgi"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Pokazy Konne Bartosz Gadziomski",
-              url: "https://blizzard.com",
-              logo: "https://blizzard.com/logo.png",
-              sameAs: [
-                "https://www.facebook.com/horsebackstunts",
-                "https://www.instagram.com/blizzardbartoszgadziomski",
-              ],
+              name: "Pokazy Konne - Bartosz Gadziomski",
+              url: "https://horsebackstuntshows.com",
+              logo: "https://horsebackstuntshows.com/logo.png",
               contactPoint: [
                 {
                   "@type": "ContactPoint",
                   telephone: "+48 606 903 286",
                   email: "bartosz.gadziomski@gmail.com",
                   contactType: "Customer Service",
-                  availableLanguage: ["English", "Polish"],
+                  availableLanguage: ["Polish", "English"],
                 },
               ],
               address: {
@@ -58,7 +58,7 @@ export default async function HomePage({ searchParams }) {
                 addressCountry: "PL",
               },
               description:
-                "Profesjonalne pokazy konne, pokazy kaskaderskie i produkcje filmowe z udziałem Bartosza Gadziomskiego. Niezapomniane widowiska na żywo.",
+                "Profesjonalne pokazy konne, kaskaderskie i produkcje filmowe z udziałem Bartosza Gadziomskiego.",
             }),
           }}
         />
@@ -67,22 +67,16 @@ export default async function HomePage({ searchParams }) {
       <HeroSection />
       <Navbar aboutStrings={aboutStrings} />
       <AboutMe aboutStrings={aboutStrings} />
-
-      {/* Pass gallery images to ShowsClient */}
       <ShowsClient
         aboutStrings={aboutStrings}
         husariaImages={husariaImages}
         rycerstwoImages={rycerstwoImages}
         inneImages={inneImages}
       />
-
-      <Filmy aboutStrings={aboutStrings} filmyImages={filmyImages} />
-      <Kaskaderka
-        aboutStrings={aboutStrings}
-        kaskaderkaImages={kaskaderkaImages}
-      />
+      <Filmy aboutStrings={aboutStrings} />
+      <Kaskaderka aboutStrings={aboutStrings} />
       <ObslugaImprez aboutStrings={aboutStrings} />
-      <Zaprzegi aboutStrings={aboutStrings} zaprzegiImages={zaprzegiImages} />
+      <Zaprzegi aboutStrings={aboutStrings} />
       <Contact aboutStrings={aboutStrings} />
       <Footer aboutStrings={aboutStrings} />
     </div>
