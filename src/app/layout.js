@@ -1,5 +1,5 @@
 import "./globals.css";
-import TranslationLoader from "./TranslationLoader";
+import TranslationLoader from "./TranslationLoader.jsss";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
