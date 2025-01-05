@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: "https://blizzard.com",
+  siteUrl: "https://horsebackstuntshows.com",
   generateRobotsTxt: true,
 };

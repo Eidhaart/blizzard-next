@@ -9,8 +9,9 @@ import deCommon from "../public/locales/de/aboutMe.json";
 import frCommon from "../public/locales/fr/aboutMe.json";
 
 i18n.use(initReactI18next).init({
-  lng: "en",
-  fallbackLng: "en", // or whatever default you like
+  lng: "pl",
+  localeDetection: false, // Disable automatic locale detection
+  fallbackLng: "pl", // or whatever default you like
   resources: {
     en: {
       translation: enCommon,
