@@ -1,6 +1,7 @@
 import "./globals.css";
 import TranslationLoader from "./TranslationLoader.js";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Pokazy Konne - Bartosz Gadziomski",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
         <TranslationLoader>
           {children}
           <Analytics />
+          <SpeedInsights />
         </TranslationLoader>
       </body>
     </html>
