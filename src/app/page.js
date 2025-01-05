@@ -26,14 +26,14 @@ export default async function HomePage({ searchParams }) {
   return (
     <div>
       <Head>
-        <title>Pokazy Konne - Bartosz Gadziomski</title>
+        <title>Pokazy Konne - Blizzard</title>
         <meta
           name="description"
           content="Zapierające dech w piersiach pokazy konne z udziałem Bartosza Gadziomskiego. Niesamowite występy i usługi kaskaderskie."
         />
         <meta
           name="keywords"
-          content="pokazy konne, pokazy kaskaderskie, Bartosz Gadziomski, husaria, rycerstwo, psie zaprzęgi"
+          content="pokazy konne, pokazy kaskaderskie, Bartosz Gadziomski, husaria, rycerstwo, psie zaprzęgi, eventy historyczne, obsługa pokazów, pokazy, pokazy historyczne, pokazy kaskaderskie, kaskaderzy konni, pokazy western, dżygitówka, trick riding, woltyż francuski, pokazy konne, pokaz konny, rycerze, pokazy rycerskie, turnieje rycerskie, turniej kopijniczy, walki konne, husaria, pokazy husarii, pokazy husarskie, lisowczycy, pokazy lisowczyków, rekonstrukcje historyczne, rekonstrukcje konne, rekonstrukcje husaria, rekonstrukcje rycerstwo, pokazy rękodzieła, pokazy kaletnictwa, pokazy powroźnictwa, pokazy pszczelarskie, pokazy zielarstwa, stoiska historyczne, psi zaprzęg, psie zaprzęgi, przejażdżki psimi zaprzęgami, przejażdżka psim zaprzęgiem, psy, konie, alpaki, sokoły, ptaki drapieżne, pokazy z alpakami, pokazy sokolnicze, pokazy szermiercze, szermierka historyczna, szermierka, charty, polowanie z chartami, pokazy chartów, pokazy polowania z chartami, kaskader, kaskaderzy, kaskader konny, kaskaderzy konni, kaskaderzy filmowi, kaskader filmowy, kaskaderka filmowa,koordynator kaskaderski, koordynacja kaskaderska, palenie na koniu, palenia filmowe, upadki kontrolowane, zwierzęta, tresowane zwierzęta, zwierzęta do filmów, zwierzęta do reklam, zwierzęta do sesji zdjęciowych, sesje zdjęciowe ze zwierzętami, tresowane zwierzęta, psy do filmów, psy do reklam, psy do sesji zdjęciowych, konie do filmów, konie do reklam, konie do sesji zdjęciowych, koty do filmów, koty do reklam, koty do sesji zdjęciowych, węże do filmów, węże do reklam, węże do sesji zdjęciowych"
         />
         <script
           type="application/ld+json"
