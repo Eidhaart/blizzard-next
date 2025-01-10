@@ -22,10 +22,15 @@ export default async function HomePage({ searchParams }) {
   const husariaImages = getGalleryImages("husaria");
   const rycerstwoImages = getGalleryImages("rycerstwo");
   const inneImages = getGalleryImages("inne");
+  const filmyImages = getGalleryImages("filmy");
+  const kaskaderkaImages = getGalleryImages("kaskaderka");
+  const zaprzegiImages = getGalleryImages("zaprzegi");
 
   return (
     <div>
       <Head>
+        <link rel="icon" href="/favicon.ico" />
+
         <title>Pokazy Konne - Blizzard</title>
         <meta
           name="description"
@@ -73,10 +78,13 @@ export default async function HomePage({ searchParams }) {
         rycerstwoImages={rycerstwoImages}
         inneImages={inneImages}
       />
-      <Filmy aboutStrings={aboutStrings} />
-      <Kaskaderka aboutStrings={aboutStrings} />
+      <Filmy aboutStrings={aboutStrings} filmyImages={filmyImages} />
+      <Kaskaderka
+        aboutStrings={aboutStrings}
+        kaskaderkaImages={kaskaderkaImages}
+      />
       <ObslugaImprez aboutStrings={aboutStrings} />
-      <Zaprzegi aboutStrings={aboutStrings} />
+      <Zaprzegi aboutStrings={aboutStrings} zaprzegiImages={zaprzegiImages} />
       <Contact aboutStrings={aboutStrings} />
       <Footer aboutStrings={aboutStrings} />
     </div>
