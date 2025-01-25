@@ -52,6 +52,7 @@ const ModalGallery = ({ images, isOpen, closeModal }) => {
               <IoCloseOutline />
             </span>
             <img
+              loading="lazy"
               src={images[selectedImageIndex]}
               alt={`Preview Image ${selectedImageIndex + 1}`}
             />
