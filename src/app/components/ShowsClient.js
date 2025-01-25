@@ -57,8 +57,7 @@ export default function ShowsClient({
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
-                  src="/Husaria.mp4"
-                  type="video/mp4"
+                  src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/husaria-AHdOfU1AJnoMSpWRleh5zP9SFqrmxH"
                   alt="Pokaz Konny z Husarią"
                 />
                 Your browser does not support the video tag.
@@ -79,11 +78,15 @@ export default function ShowsClient({
             <h2>{aboutStrings.shows.categories.rycerstwo.title}</h2>
             <div
               className="video-wrapper"
-              onClick={() => openModal("/Rycerstwo.mp4")}
+              onClick={() =>
+                openModal(
+                  "https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/rycerstwo-A7PCvYWCrYnovI4dsSeenea4hi64dS"
+                )
+              }
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
-                  src="/Rycerstwo.mp4"
+                  src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/rycerstwo-A7PCvYWCrYnovI4dsSeenea4hi64dS"
                   type="video/mp4"
                   alt="Pokaz Konny Rycerstwo"
                 />
@@ -111,10 +114,17 @@ export default function ShowsClient({
             <h2>{aboutStrings.shows.categories.inne.title}</h2>
             <div
               className="video-wrapper"
-              onClick={() => openModal("/video-file.mp4")}
+              onClick={() =>
+                openModal(
+                  "https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/pokazy-YERgiYaqNh74tUECDrcD6vBce73NSY"
+                )
+              }
             >
               <video autoPlay muted loop playsInline className="video-card">
-                <source src="/video-file.mp4" type="video/mp4" />
+                <source
+                  src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/pokazy-YERgiYaqNh74tUECDrcD6vBce73NSY"
+                  type="video/mp4"
+                />
                 Your browser does not support the video tag.
               </video>
             </div>

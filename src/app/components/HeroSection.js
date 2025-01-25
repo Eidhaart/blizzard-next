@@ -11,7 +11,10 @@ const HeroSection = () => {
     <header className="hero-section">
       <div className="overlay"></div>
       <video className="video-background" autoPlay loop muted playsInline>
-        <source src="/video-file.mp4" type="video/mp4" />
+        <source
+          src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/pokazy-YERgiYaqNh74tUECDrcD6vBce73NSY"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
       <div className="hero-content">
