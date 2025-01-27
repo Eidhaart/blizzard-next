@@ -57,7 +57,7 @@ export default function ShowsClient({
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
-                  src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/husaria-AHdOfU1AJnoMSpWRleh5zP9SFqrmxH"
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Husaria (1).mp4?alt=media"
                   alt="Pokaz Konny z Husarią"
                 />
                 Your browser does not support the video tag.
@@ -80,13 +80,13 @@ export default function ShowsClient({
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/rycerstwo-A7PCvYWCrYnovI4dsSeenea4hi64dS"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwo (1).mp4?alt=media"
                 )
               }
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
-                  src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/rycerstwo-A7PCvYWCrYnovI4dsSeenea4hi64dS"
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwo (1).mp4?alt=media"
                   type="video/mp4"
                   alt="Pokaz Konny Rycerstwo"
                 />
@@ -116,13 +116,13 @@ export default function ShowsClient({
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/pokazy-YERgiYaqNh74tUECDrcD6vBce73NSY"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Hero.mp4?alt=media"
                 )
               }
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
-                  src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/pokazy-YERgiYaqNh74tUECDrcD6vBce73NSY"
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Hero.mp4?alt=media"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.

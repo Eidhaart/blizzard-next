@@ -40,17 +40,17 @@ export default function Zaprzegi({ aboutStrings, zaprzegiImages }) {
           <div className="show-video">
             <div
               className="video-wrapper"
-              onClick={() => openModal("/film4.mp4")}
+              onClick={() =>
+                openModal(
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Zaprzęgi.mp4?alt=media"
+                )
+              }
             >
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="video-card"
-                poster="/film1.jpg"
-              >
-                <source src="/film4.mp4" type="video/mp4" />
+              <video autoPlay muted loop playsInline className="video-card">
+                <source
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Zaprzęgi.mp4?alt=media"
+                  type="video/mp4"
+                />
                 Your browser does not support the video tag.
               </video>
             </div>

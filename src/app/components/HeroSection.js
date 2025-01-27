@@ -10,13 +10,21 @@ const HeroSection = () => {
   return (
     <header className="hero-section">
       <div className="overlay"></div>
-      <video className="video-background" autoPlay loop muted playsInline>
+      <video
+        className="video-background"
+        autoPlay
+        loop
+        muted
+        playsInline
+        onError={(e) => console.error("Video failed to load:", e)}
+      >
         <source
-          src="https://por6wk3yiismwyi6.public.blob.vercel-storage.com/videos/pokazy-YERgiYaqNh74tUECDrcD6vBce73NSY"
+          src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Hero.mp4?alt=media"
           type="video/mp4"
         />
         Your browser does not support the video tag.
       </video>
+
       <div className="hero-content">
         <h1>{t("hero.title")}</h1>
         <p>
