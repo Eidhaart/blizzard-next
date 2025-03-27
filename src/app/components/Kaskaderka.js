@@ -10,10 +10,17 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
   const { t } = useTranslation();
   const [showModal, setShowModal] = useState(false);
   const [openGalleryCategory, setOpenGalleryCategory] = useState(null);
+  const [showVideoModal, setShowVideoModal] = useState(false);
+  const [currentVideo, setCurrentVideo] = useState(null);
 
   const closeGalleryModal = () => setOpenGalleryCategory(null);
 
   const openModal = () => {
+    setShowModal(true);
+  };
+
+  const openVideoModal = (videoSrc) => {
+    setCurrentVideo(videoSrc);
     setShowModal(true);
   };
 
@@ -43,6 +50,25 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
         <br />
         <br />
 
+        {showModal && (
+          <div className="video-modal-overlay" onClick={closeModal}>
+            <div
+              className="video-modal-content"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <span className="video-close-button" onClick={closeModal}>
+                &times;
+              </span>
+              {currentVideo && (
+                <video controls autoPlay style={{ width: "100%" }}>
+                  <source src={currentVideo} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* First Image Category */}
         <div className="show-category">
           <div className="show-text">
@@ -50,7 +76,31 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
             <br />
             <p>{aboutStrings.kaskaderka.categories.variedStunts.description}</p>
           </div>
-          <div className="show-image">
+          <div className="show-video">
+            <div
+              className="video-wrapper"
+              onClick={() =>
+                openVideoModal(
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Kaskaderka.mov?alt=media"
+                )
+              }
+            >
+              <video autoPlay muted loop playsInline className="video-card">
+                <source
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Kaskaderka.mov?alt=media"
+                  alt="Pokaz Konny z Husarią"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p
+              className="gallery-button"
+              onClick={() => setOpenGalleryCategory("husaria")}
+            >
+              {t("zdj")}
+            </p>
+          </div>
+          {/* <div className="show-image">
             <img src="/FilmStunts.jpg" alt="Horse Stunt Show" />
             <p
               className="gallery-button"
@@ -58,7 +108,7 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
             >
               {t("zdj")}
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Gallery Modal */}
