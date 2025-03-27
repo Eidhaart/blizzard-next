@@ -53,7 +53,11 @@ export default function ShowsClient({
             <h2>{aboutStrings.shows.categories.husaria.title}</h2>
             <div
               className="video-wrapper"
-              onClick={() => openModal("/Husaria.mp4")}
+              onClick={() =>
+                openModal(
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Husaria (1).mp4?alt=media"
+                )
+              }
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
