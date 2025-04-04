@@ -42,7 +42,7 @@ export default function Zaprzegi({ aboutStrings, zaprzegiImages }) {
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Zaprzęgi.mp4?alt=media"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Zaprzęgimini.mp4?alt=media"
                 )
               }
             >

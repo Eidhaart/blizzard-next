@@ -81,7 +81,7 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
               className="video-wrapper"
               onClick={() =>
                 openVideoModal(
-                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Kaskaderka.mov?alt=media"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Kaskaderkamini.mp4?alt=media"
                 )
               }
             >

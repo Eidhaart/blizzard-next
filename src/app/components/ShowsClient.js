@@ -55,7 +55,7 @@ export default function ShowsClient({
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Husaria (1).mp4?alt=media"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Husariamini.mp4?alt=media"
                 )
               }
             >
@@ -84,7 +84,7 @@ export default function ShowsClient({
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwo (1).mp4?alt=media"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwomini.mp4?alt=media"
                 )
               }
             >
@@ -120,7 +120,7 @@ export default function ShowsClient({
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Hero.mp4?alt=media"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Heromini.mp4?alt=media"
                 )
               }
             >
