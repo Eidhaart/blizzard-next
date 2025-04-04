@@ -19,7 +19,7 @@ const HeroSection = () => {
         onError={(e) => console.error("Video failed to load:", e)}
       >
         <source
-          src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Hero.mp4?alt=media"
+          src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/HeroHero.mp4?alt=media"
           type="video/mp4"
         />
         Your browser does not support the video tag.
