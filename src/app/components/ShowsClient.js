@@ -84,13 +84,13 @@ export default function ShowsClient({
               className="video-wrapper"
               onClick={() =>
                 openModal(
-                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwomini.mp4?alt=media"
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwo (1).mp4?alt=media"
                 )
               }
             >
               <video autoPlay muted loop playsInline className="video-card">
                 <source
-                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwo (1).mp4?alt=media"
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Rycerstwomini.mp4?alt=media"
                   type="video/mp4"
                   alt="Pokaz Konny Rycerstwo"
                 />
