@@ -73,8 +73,6 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
         <div className="show-category">
           <div className="show-text">
             <p>{aboutStrings.kaskaderka.categories.horseStunts.description}</p>
-            <br />
-            <p>{aboutStrings.kaskaderka.categories.variedStunts.description}</p>
           </div>
           <div className="show-video">
             <div
@@ -109,6 +107,35 @@ export default function Kaskaderka({ aboutStrings, kaskaderkaImages }) {
               {t("zdj")}
             </p>
           </div> */}
+        </div>
+        <div className="show-category">
+          <div className="show-video">
+            <div
+              className="video-wrapper"
+              onClick={() =>
+                openVideoModal(
+                  "https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/Kaskaderka piesza v. 4.mp4?alt=media"
+                )
+              }
+            >
+              <video autoPlay muted loop playsInline className="video-card">
+                <source
+                  src="https://firebasestorage.googleapis.com/v0/b/horsebackstuntshows.firebasestorage.app/o/kaskaderkapiesza.mp4?alt=media"
+                  alt="Pokaz Konny z Husarią"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p
+              className="gallery-button"
+              onClick={() => setOpenGalleryCategory("husaria")}
+            >
+              {t("zdj")}
+            </p>
+          </div>
+          <div className="show-text">
+            <p>{aboutStrings.kaskaderka.categories.variedStunts.description}</p>
+          </div>
         </div>
 
         {/* Gallery Modal */}
